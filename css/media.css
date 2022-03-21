@@ -1,0 +1,146 @@
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header .content-header {
+        width: 80%;
+    }
+
+    .navbar .listLink li {
+        margin-left: 1em
+    }
+
+    .contact form .group input {
+        width: 5rem;
+    }
+
+    .contact form .group textarea {
+        width: 40rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .col-sm {
+        display: block;
+    }
+
+    .d-colum {
+        flex-direction: column;
+    }
+
+    .quidePeople .cardPeople {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .listLink {
+        flex-direction: column;
+    }
+
+    .navbar .logo {
+        top: 3rem;
+    }
+
+    .navbar .listLink li {
+        margin-left: 1em;
+    }
+
+    .navbar .listLink li:nth-child(1) {
+        margin-top: 3rem;
+    }
+
+    .header {
+        height: 100%
+    }
+
+    .header .content-header p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .contact form .group input {
+        width: 17rem;
+    }
+
+    .contact form .group textarea {
+        width: 32rem;
+    }
+
+    .footer ul {
+        flex-direction: column;
+    }
+
+    .footer .list .galary {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header  {
+        height: 57vh;
+    }
+
+    .sm_lead {
+        display: none
+    }
+
+    .contact form .group input {
+        width: 4rem;
+        margin-left: 28px;
+    }
+
+    .contact form .group textarea {
+        width: 20rem;
+    }
+}
+
+@media(max-width: 380px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .header {
+        height: 65vh;
+    }
+
+    .navbar {
+        padding-bottom: 2em;
+    }
+
+    .listLink {
+        flex-direction: column;
+        position: relative;
+        top: 2em
+    }
+
+    .quideInSudan .card .imgChild img:nth-child(1) {
+        top: 1em;
+        right: 0;
+    }
+
+    .quideInSudan .card .imgChild img:nth-child(2) {
+        top: 4rem;
+    }
+    
+    .quideInSudan .card .imgChild img:nth-child(3) {
+        top: 7em;
+        left: 0;
+    }
+}
