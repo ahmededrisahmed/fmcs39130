@@ -264,6 +264,10 @@ ol li:nth-child(odd) {
     text-align: center;
 }
 
+quideInSudan .card h2 {
+    margin-bottom : 30px;
+}
+
 .quideInSudan .card h2 a {
     color: #e50672;
     font-weight: bold;
